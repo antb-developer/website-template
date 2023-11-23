@@ -1,0 +1,230 @@
+ .affix {
+top: 57px;
+width:100%;
+z-index:999;
+ }
+.nav > li
+{
+	font-size: 18px;
+	padding-top: 18px;
+}
+.nav > li a
+{
+	color:#FFF !important;	
+}
+
+.nav > li a:hover
+{
+	color:#000 !important;	
+}
+.navbar i{color:#FFF;}
+
+.nopad
+{
+	padding:0 !important;
+}
+
+.offers p,h3
+{
+	text-align:center;
+	color: #333;
+}
+
+
+.md2
+{
+	margin-right: 25px;
+}
+
+.ic
+{
+	top:70px; 
+	top: 120px;
+	font-size: 30px;
+	left: -40px;
+}
+
+.ic2
+{
+	 top:70px; 
+	font-size: 30px;
+	left: 40px;
+	top:-148px;
+
+}
+.logo{
+	height:60px;
+}
+
+.top-nav-collapse{min-height:40px !important; background-color:#000;}
+
+.navbar-brand2
+{
+	padding:2px;
+}
+
+.cll{
+	font-size:16px;
+	color:#f5f5f5;
+	border:2px #f5f5f5 solid;
+	background:none;
+}
+
+.cll:hover{background-color:#e2e2e2;}
+
+	.survey button
+{ 
+	height:50px; 
+	width:150px; 
+	font-size:18px; 
+	border-radius:0px; 
+	margin-top:30px;
+	background-color:transparent; 
+	border:2px #f5f5f5 solid; 
+	color:#f5f5f5;
+}
+
+.survey button:hover
+{
+	background-color:#f5f5f5;
+	
+}
+	
+.survey h1
+{
+	font-weight:800;
+	color:#fff;
+	font-size:50px;
+}
+
+
+
+.no_rad{border-radius:0px;}
+
+
+
+.foot li{
+	margin-bottom: 7px;}
+.foot h3,p,li{color:#fff ; text-align:left;}
+
+.foot ol{
+	margin-left: -30px;
+list-style-type: none;}
+
+footer p{text-align:center; font-size:16px; color:#000;}
+
+
+/*extra for supplier*/
+
+
+
+.supl_cols{
+	border:1px #e2e2e2 solid;
+	min-height:100px; 
+	background-color:#fff;  
+	margin-bottom:20px;
+	}
+
+.supl_cols h1{ padding:0 10px; font-weight:700; font-size:20px; }
+.supl_text
+{
+	width:90%;
+}
+.supl_cols p{float:left; padding:0 10px; margin-top:-5px; font-size:16px; color:#333;}
+
+
+
+.box
+{
+	height:70px; 
+	margin-top:15px; 
+	margin-left:-30px; 
+	width:70px; 
+	background-color:#fff; 
+	float:left;
+	border:2px #000 solid;
+	padding:15px;
+	
+
+}
+.box i{ font-size:32px;}
+.xx{
+font-size: 50px;
+font-weight: 800; text-align:center; padding:0 !important;}
+
+.kk{position:fixed; top:100px !important; width:100% !important;}
+
+
+
+/*extra for how it workss */
+
+
+
+.bewolve-heading{
+	width:30%;
+  height:170px;
+
+  }
+.bewolve-heading p{
+font-size:20px; text-align:center; font-weight: 900; color:#333333;
+}
+.bewolve-heading h2
+{
+text-align:center; font-size: 60px; font-weight: 700; text-transform:capitalize; margin-bottom:-8px;
+}
+
+.bewolve-desc{
+	width:70%; 
+	  min-height:90px;
+}
+
+.bewolve-desc  h3{
+height: 150px;
+text-align:justify;
+vertical-align: bottom;
+display: table-cell;
+font-size:17px;}
+
+
+
+.list{border-bottom:2px #000 dashed; margin-bottom:20px;}
+
+/* index */
+
+.offers h1{text-align:center; height:80px; font-size:80px;}
+
+/* Responsive */
+
+
+@media (max-width:768px){
+	.logo{margin-left:20px;}
+	.pull-right{float:none !important;}
+	.survey button{ margin-bottom:10px;}
+	.survey h1{font-size: 40px; text-align:center;}
+	 .affix {
+top: 65px;
+	 }
+	.bewolve-heading, .bewolve-desc { width:100%;   border:1px #fff solid;
+}
+	 .bewolve-heading{
+  height:100px;
+  }
+.bewolve-desc{
+padding-bottom:10px;
+}
+.bewolve-desc h3 {
+    height: 60px;
+	display:block !important;
+	vertical-align:auto !important;
+	text-align:center;
+}
+
+.xss{padding-left:6px !important; padding-right:6px !important;}
+
+}
+@media (min-width:768px){
+	.survey h1:nth-child(1){text-align:right;}
+	.tos{border-right:2px #fff solid;}
+	.bewolve-heading, .bewolve-desc {float:left;}
+	ul.nav{margin-left:50px;}
+}
